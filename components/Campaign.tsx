@@ -83,7 +83,7 @@ const Campaingn: React.FC = () => {
     };
 
     fetchRows(requestConfig, applyData);
-  }, [fetchRows, Apis.FEATURE_LIST_URL]);
+  }, [fetchRows]);
 
   return (
     <div style={{ height: 400, width: "100%" }}>
